@@ -29,3 +29,6 @@ cmake \
 
 make -j$CPU_COUNT
 make install
+
+mkdir -p $PREFIX/include/External/INCHI-API/
+cp -R External/INCHI-API/* $PREFIX/include/External/INCHI-API/
